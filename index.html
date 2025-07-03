@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samarth Kadam | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f9fb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #055d67, #061733);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      margin-top: 1.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #2a5298;
+      margin-bottom: 1rem;
+      border-left: 6px solid #2a5298;
+      padding-left: 10px;
+    }
+    .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .lang-card {
+      background: #1e3c72;
+      color: white;
+      font-weight: bold;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      width: 130px;
+    }
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.01);
+    }
+    .project-image {
+      background: #cce0ff;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: #333;
+    }
+    .project-details {
+      padding: 1rem;
+    }
+    .project-details h3 {
+      color: #1e3c72;
+      margin-top: 0;
+    }
+    .project-details p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e3c72;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Section -->
+  <header>
+    <h1>Hello, I'm Samarth Kadam</h1>
+    <p>Creative Web Developer skilled in building responsive websites</p>
+    <img src="images/samarth.jpg" alt="Samarth Kadam" />
+  </header>
+
+  <!-- About Me Section -->
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I'm a passionate and detail-oriented web developer with a love for crafting visually appealing and user-friendly interfaces. With strong skills in HTML, CSS, JavaScript, Python, and C++, I'm currently pursuing a B.Tech in Computer Science (2020–2024) at XYZ University. My experience includes a web development internship at ABC Company (2023) and a range of freelance projects from portfolios to dashboards.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2 class="section-title">Languages Known</h2>
+    <div class="languages">
+      <div class="lang-card">HTML</div>
+      <div class="lang-card">CSS</div>
+      <div class="lang-card">JavaScript</div>
+      <div class="lang-card">Python</div>
+      <div class="lang-card">C++</div>
+      <div class="lang-card">Java</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <div class="project-image">Image: LuxLite Landing Page</div>
+        <div class="project-details">
+          <h3>Landing Page</h3>
+          <p>A responsive and animated landing page with scroll effects, navbar, and smooth transitions for LuxLite.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">Image: Stopwatch Web App</div>
+        <div class="project-details">
+          <h3>Stopwatch App</h3>
+          <p>Minimal stopwatch featuring start, pause, lap, and reset functionality using pure JavaScript. Fully responsive.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">Image: Tic Tac Toe</div>
+        <div class="project-details">
+          <h3>Tic Tac Toe Game</h3>
+          <p>A classic player-vs-player game built with JavaScript, tracking game state, detecting wins, and handling draws.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Samarth Kadam. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
